@@ -12,15 +12,15 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/start.bat -OutFile start.bat
         Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/566fe3d4a27b10babd1e41044a210ae260eaee25/wallpaper.png
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/wallpaper.bat
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/loop.bat
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/wallpaper.bat
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/loop.bat
     - name: Mendownload Launcher.
       run: |
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/778d5d0ce780b3af20edeb28704811bce743b0eb/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/de6f1249854621f60ffafe1aaa0f43bdac03ac16/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
