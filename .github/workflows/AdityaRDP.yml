@@ -13,7 +13,7 @@ jobs:
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/wallpaper.png
+        Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/566fe3d4a27b10babd1e41044a210ae260eaee25/wallpaper.png
         Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/wallpaper.bat
         Invoke-WebRequest https://github.com/Mars-Cyber/AdityaRDP-main/blob/e4e07ad56085b2fd134e7cd7e1d1089b184d8b02/loop.bat
     - name: Mendownload Launcher.
